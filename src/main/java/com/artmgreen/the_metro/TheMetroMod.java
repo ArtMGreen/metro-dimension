@@ -1,4 +1,4 @@
-package com.artmgreen.metroportals;   // <-- adjust this line
+package com.artmgreen.the_metro;   // <-- adjust this line
 
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.resources.ResourceLocation;
@@ -7,12 +7,12 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
-@Mod("metroportals")
-public class MetroPortalsMod {
+@Mod("the_metro")
+public class TheMetroMod {
 
     public static final String METRO_DIM = "the_metro:the_metro";
 
-    public MetroPortalsMod(IEventBus modEventBus) {
+    public TheMetroMod(IEventBus modEventBus) {
         modEventBus.addListener(this::onCommonSetup);
     }
 

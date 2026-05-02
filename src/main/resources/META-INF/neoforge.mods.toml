@@ -46,7 +46,8 @@ displayName="${mod_name}" #mandatory
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Adds portals to enter and exit The Metro from every vanilla dimension.
+Adds The Metro dimension for transportation purposes.
+Adds portals to enter and exit it from every vanilla dimension.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
